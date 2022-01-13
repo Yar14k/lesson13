@@ -1,0 +1,38 @@
+body{
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-part{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius: 25px ;
+}
+a.arrow{
+position: relative;
+text-decoration: none;
+color: black;
+}
+
+a.arrow::after{
+    content: '>';
+    position: absolute;
+
+}
+a.arrow:hover::after{
+    transition: 0.1ms all;
+    transform:translateX(25px) ;
+}
+.second-arrow{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.third-arrow{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
